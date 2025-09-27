@@ -15,9 +15,9 @@ class Pawn;
 
 class Board {
 private:
-    std::string grid[8][8]={};
-    Player* white=nullptr;
-    Player* black=nullptr;
+  std::string grid[8][8];
+  Player* white;
+  Player* black;
 public:
     Board();
     void display(char color);
